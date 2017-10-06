@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+    <servlet>
+        <servlet-name>dvdServlet</servlet-name>
+        <servlet-class>hw2.dvdServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dvdServlet</servlet-name>
+        <url-pattern>/dvd</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file> orderForm.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
